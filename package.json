@@ -1,0 +1,12 @@
+{
+    "name": "server",
+    "scripts": {
+        "server": "xvfb-run --server-args='-screen 0, 1440x900x24' node index.mjs"
+    },
+    "keywords": [],
+    "author": "Vladimir krasnoselskikh",
+    "license": "MIT",
+    "dependencies": {
+        "playwright": "1.46.0"
+    }
+}
